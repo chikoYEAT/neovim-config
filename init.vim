@@ -1,5 +1,6 @@
 :set number
 
+
 :set relativenumber
 :set autoindent
 :set tabstop=4
@@ -11,13 +12,12 @@
 call plug#begin()
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'morhetz/gruvbox'
-Plug 'ryanoasis/vim-devicons'
+Plug 'sindrets/diffview.nvim'
 Plug 'https://github.com/vim-test/vim-test.git' 
 Plug 'https://github.com/vim-airline/vim-airline.git'
-Plugin 'vim-airline/vim-airline'
-Plugin 'sainnhe/everforest'
-Plugin 'vim-airline/vim-airline-themes'
-
+Plug 'ThePrimeagen/vim-be-good'
+Plug 'alexghergh/nvim-tmux-navigation'
+Plug 'nsf/gocode', { 'tag': 'go.weekly.2012-03-13', 'rtp': 'vim' }
 call plug#end()
  
 set encoding=UTF-8
