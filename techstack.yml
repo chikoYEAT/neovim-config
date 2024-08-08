@@ -1,0 +1,20 @@
+repo_name: chikoYEAT/neovim-config
+report_id: 65dd065e5f8150e2a9e1465ec64e194a
+version: 0.1
+repo_type: Public
+timestamp: '2024-08-08T07:37:32+00:00'
+requested_by: chikoYEAT
+provider: github
+branch: main
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/chikoYEAT/neovim-config
+  detection_source: Repo Metadata
